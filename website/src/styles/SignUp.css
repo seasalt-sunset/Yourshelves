@@ -1,0 +1,53 @@
+.boxBox {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+
+    border-radius: 5px;
+}
+.box1 {
+    background-color: #B4490A;
+}
+
+.box2 {
+    background-color: #F5BA97;
+}
+
+
+@media only screen and
+    (orientation: landscape) {
+        #signUpPage{
+            background-image: url('../assets/background-desktop.jfif');
+            height: 100vh;
+            width: 100vw;
+            background-size: cover;
+        }
+
+        .homeTitle {
+            text-align: center;
+            font-family:'Kelly Slab', 'Arial Narrow', Arial, sans-serif;
+            font-size: 80px;
+            margin-top: 0%;
+            color: #FFE6C1;
+            text-shadow: 3px 3px black,
+            -3px -3px black,
+            3px -3px black,
+            -3px 3px black;
+             
+        }
+
+        .signUpTitle {
+            text-align: center;
+            font-family:'Kelly Slab', 'Arial Narrow', Arial, sans-serif;
+            font-size: 80px;
+            color: #FFE6C1;
+            -webkit-text-stroke: 0.1px black;
+        }
+    }
+
+ /*       .signUpInput {
+
+        }
+        }
+    */
