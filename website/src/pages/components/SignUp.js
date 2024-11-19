@@ -2,7 +2,8 @@ import axios from "axios";
 import React from 'react';
 import '../../styles/SignUp.css';
 import { toast } from "react-toastify"
-function SignUp() {
+
+function SignUp(props) {
 
   const onSignup = async(e) => {
   e.preventDefault();
@@ -34,7 +35,7 @@ function SignUp() {
                 <input className='signUpInput' type="text"placeholder='password'/> 
             
                 <button type="submit"> Sign Up </button>
-                <button type="button">Login </button>
+                <button type="button" onClick={() => props.changeToLogin()}>Login </button>
                 <div className="bottoni">
                  <button> Cancel </button>
                 </div>
