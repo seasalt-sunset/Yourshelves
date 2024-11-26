@@ -1,0 +1,142 @@
+[
+    {
+        "name": "Grand Theft Auto V",
+        "slug": "grand-theft-auto-v",
+        "released": "2013-09-17",
+        "tba": false,
+        "background_image": "https://media.rawg.io/media/games/20a/20aa03a10cda45239fe22d035c0ebe64.jpg"
+    },
+    {
+        "name": "The Witcher 3: Wild Hunt",
+        "slug": "the-witcher-3-wild-hunt",
+        "released": "2015-05-18",
+        "tba": false,
+        "background_image": "https://media.rawg.io/media/games/618/618c2031a07bbff6b4f611f10b6bcdbc.jpg"
+    },
+    {
+        "name": "Portal 2",
+        "slug": "portal-2",
+        "released": "2011-04-18",
+        "tba": false,
+        "background_image": "https://media.rawg.io/media/games/2ba/2bac0e87cf45e5b508f227d281c9252a.jpg"
+    },
+    {
+        "name": "Counter-Strike: Global Offensive",
+        "slug": "counter-strike-global-offensive",
+        "released": "2012-08-21",
+        "tba": false,
+        "background_image": "https://media.rawg.io/media/games/736/73619bd336c894d6941d926bfd563946.jpg"
+    },
+    {
+        "name": "Tomb Raider (2013)",
+        "slug": "tomb-raider",
+        "released": "2013-03-05",
+        "tba": false,
+        "background_image": "https://media.rawg.io/media/games/021/021c4e21a1824d2526f925eff6324653.jpg"
+    },
+    {
+        "name": "Portal",
+        "slug": "portal",
+        "released": "2007-10-09",
+        "tba": false,
+        "background_image": "https://media.rawg.io/media/games/7fa/7fa0b586293c5861ee32490e953a4996.jpg"
+    },
+    {
+        "name": "Left 4 Dead 2",
+        "slug": "left-4-dead-2",
+        "released": "2009-11-17",
+        "tba": false,
+        "background_image": "https://media.rawg.io/media/games/d58/d588947d4286e7b5e0e12e1bea7d9844.jpg"
+    },
+    {
+        "name": "The Elder Scrolls V: Skyrim",
+        "slug": "the-elder-scrolls-v-skyrim",
+        "released": "2011-11-11",
+        "tba": false,
+        "background_image": "https://media.rawg.io/media/games/7cf/7cfc9220b401b7a300e409e539c9afd5.jpg"
+    },
+    {
+        "name": "Red Dead Redemption 2",
+        "slug": "red-dead-redemption-2",
+        "released": "2018-10-26",
+        "tba": false,
+        "background_image": "https://media.rawg.io/media/games/511/5118aff5091cb3efec399c808f8c598f.jpg"
+    },
+    {
+        "name": "BioShock Infinite",
+        "slug": "bioshock-infinite",
+        "released": "2013-03-26",
+        "tba": false,
+        "background_image": "https://media.rawg.io/media/games/fc1/fc1307a2774506b5bd65d7e8424664a7.jpg"
+    },
+    {
+        "name": "Borderlands 2",
+        "slug": "borderlands-2",
+        "released": "2012-09-18",
+        "tba": false,
+        "background_image": "https://media.rawg.io/media/games/49c/49c3dfa4ce2f6f140cc4825868e858cb.jpg"
+    },
+    {
+        "name": "Life is Strange",
+        "slug": "life-is-strange-episode-1-2",
+        "released": "2015-01-29",
+        "tba": false,
+        "background_image": "https://media.rawg.io/media/games/562/562553814dd54e001a541e4ee83a591c.jpg"
+    },
+    {
+        "name": "Half-Life 2",
+        "slug": "half-life-2",
+        "released": "2004-11-16",
+        "tba": false,
+        "background_image": "https://media.rawg.io/media/games/b8c/b8c243eaa0fbac8115e0cdccac3f91dc.jpg"
+    },
+    {
+        "name": "BioShock",
+        "slug": "bioshock",
+        "released": "2007-08-21",
+        "tba": false,
+        "background_image": "https://media.rawg.io/media/games/bc0/bc06a29ceac58652b684deefe7d56099.jpg"
+    },
+    {
+        "name": "Destiny 2",
+        "slug": "destiny-2",
+        "released": "2017-09-06",
+        "tba": false,
+        "background_image": "https://media.rawg.io/media/games/34b/34b1f1850a1c06fd971bc6ab3ac0ce0e.jpg"
+    },
+    {
+        "name": "God of War (2018)",
+        "slug": "god-of-war-2",
+        "released": "2018-04-20",
+        "tba": false,
+        "background_image": "https://media.rawg.io/media/games/4be/4be6a6ad0364751a96229c56bf69be59.jpg"
+    },
+    {
+        "name": "Fallout 4",
+        "slug": "fallout-4",
+        "released": "2015-11-09",
+        "tba": false,
+        "background_image": "https://media.rawg.io/media/games/d82/d82990b9c67ba0d2d09d4e6fa88885a7.jpg"
+    },
+    {
+        "name": "Limbo",
+        "slug": "limbo",
+        "released": "2010-07-21",
+        "tba": false,
+        "background_image": "https://media.rawg.io/media/games/942/9424d6bb763dc38d9378b488603c87fa.jpg"
+    },
+    {
+        "name": "PAYDAY 2",
+        "slug": "payday-2",
+        "released": "2013-08-13",
+        "tba": false,
+        "background_image": "https://media.rawg.io/media/games/73e/73eecb8909e0c39fb246f457b5d6cbbe.jpg"
+    },
+    {
+        "name": "Team Fortress 2",
+        "slug": "team-fortress-2",
+        "released": "2007-10-10",
+        "tba": false,
+        "background_image": "https://media.rawg.io/media/games/46d/46d98e6910fbc0706e2948a7cc9b10c5.jpg"
+    }
+]

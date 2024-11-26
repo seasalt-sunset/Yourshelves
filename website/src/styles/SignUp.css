@@ -1,17 +1,21 @@
 .boxBox {
-    display: flex;
+    display: grid;
     align-items: center;
-    justify-content: space-between;
-    flex-direction: column;
-
-    border-radius: 5px;
+    grid-template-columns: fit-content auto;
+    overflow: hidden;
+    border-radius: 20px;
+    width: 50vw;
 }
 .box1 {
     background-color: #B4490A;
 }
 
 .box2 {
+    display: flex;
     background-color: #F5BA97;
+    flex-direction: column;
+
+    gap: 1vh;
 }
 
 
@@ -22,13 +26,20 @@
             height: 100vh;
             width: 100vw;
             background-size: cover;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            border-radius: 10px;
         }
 
         .homeTitle {
+            position: absolute;
+            top: 0;
+            margin: 0 auto;
             text-align: center;
             font-family:'Kelly Slab', 'Arial Narrow', Arial, sans-serif;
             font-size: 80px;
-            margin-top: 0%;
             color: #FFE6C1;
             text-shadow: 3px 3px black,
             -3px -3px black,
@@ -43,11 +54,17 @@
             font-size: 80px;
             color: #FFE6C1;
             -webkit-text-stroke: 0.1px black;
+            margin: 0; 
+
         }
     }
 
- /*       .signUpInput {
-
-        }
-        }
-    */
+    .signUpBottoni {
+        display:flex;
+        flex-direction: row;
+        justify-content: center;
+        padding-top: 1vh;
+        padding-left: 15vw;
+        padding-right: 15vw;
+        padding-bottom: 1vh;
+    }

@@ -22,9 +22,7 @@ function SignUp(props) {
   }
   return (
     <div className="parent" id="signUpPage">
-            <div>
                 <h1 className='homeTitle'>Yourshelves</h1>
-            </div>
         <div className='boxBox'>
             <div className='box1'>
                 <h2 className='signUpTitle'>Sign Up</h2>   
@@ -34,10 +32,10 @@ function SignUp(props) {
                 <input className='signUpInput' type="text" placeholder='username'/>  
                 <input className='signUpInput' type="text"placeholder='password'/> 
             
+                <div className="signUpBottoni">
                 <button type="submit"> Sign Up </button>
-                <button type="button" onClick={() => props.changeToLogin()}>Login </button>
-                <div className="bottoni">
-                 <button> Cancel </button>
+                <button type="button" className="signUpBottone" onClick={() => props.changeToLogin()}>Login </button>
+                 <button className="signUpBottone"> Cancel </button>
                 </div>
             </form>
         </div>

@@ -1,8 +1,9 @@
 import React from 'react'
-
 function Home() {
   return (
-    <div>Home</div>
+    <div>
+      <img className ="scaffale" src= "../assets/scaffale.svg" alt="scaffale"/>
+    </div>
   )
 }
 
