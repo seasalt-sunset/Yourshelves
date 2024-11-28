@@ -1,4 +1,3 @@
-import logo from './logo.svg';
 import React, { useEffect, useState } from "react";
 import './App.css';
 import {
@@ -14,10 +13,11 @@ import Entry from './pages/Entry';
 import Home from './pages/Home.js';
 import axios from 'axios';
 import { PrivateRoute } from './services/PrivateRoute.js';
+
 function App() {
 
-  const [auth, setAuth] = useState(null);
-  const [loading, setLoading] = useState(false);
+  const [auth, setAuth] = useState(false);
+  const [loading, setLoading] = useState(true);
   
   useEffect(() => {
     if(localStorage.getItem("AuthToken")) {
@@ -35,9 +35,11 @@ function App() {
       }
     }
     )
+
+    console.log(response.data.user)
     if (response?.data?.error) {
       toast.error(response.data.error);
-    } else if(response?.data?.user){
+    } else {
       setAuth(response?.data?.user)
     }
         setLoading(false);

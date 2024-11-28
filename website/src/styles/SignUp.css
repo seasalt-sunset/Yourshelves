@@ -1,3 +1,6 @@
+.titleDiv {
+    align-items: center;
+}
 .boxBox {
     display: grid;
     align-items: center;
