@@ -85,13 +85,13 @@ bcrypt.compare(password, user.password).then((match) => {
     });
 })
 
-    router.get("/auth", validateToken, async (req, res) => {
-
-        if(req.user) {
-            return res.json({user:req.user});
-        }
-    })
 
 })
 
+router.get("/auth", validateToken, async (req, res) => {
+
+    if(req.user) {
+        return res.json({user:req.user});
+    }
+})
 module.exports = router;

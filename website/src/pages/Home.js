@@ -3,6 +3,7 @@ import '../styles/Home.css'
 import Scaff from '../assets/images/scaffale.svg'
 import MenuIcon from '../assets/images/menu_icon.svg'
 import Logo from '../assets/images/y.svg'
+import AddVideogames from './components/AddVideogames'
 
 function Home() {
   return (
@@ -12,12 +13,13 @@ function Home() {
       <img className='logo' src= {Logo}/>
       <p> </p>
       </div>
-      <div className='divScaffale'>
+      <div><AddVideogames /> </div>
+      {/* <div className='divScaffale'>
       <img className='scaffale' src= {Scaff} />
       <img className='scaffale' src= {Scaff} />
       <img className='scaffale' src= {Scaff} />
       <img className='scaffale' src= {Scaff} />
-      </div>
+      </div> */}
     </div>
   )
 }
