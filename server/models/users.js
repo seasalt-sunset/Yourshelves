@@ -16,6 +16,9 @@ module.exports = (sequelize, DataTypes) => {
             unique: false
         }
     })
-    
+    users.associate = (models) => {
+        users.hasMany(models.giochi_inCorso, {foreignKey: "userId"});
+        models.giochi_inCorso.belongsTo(users, {foreignKey: "userId"});
+    }
     return users;  
     }

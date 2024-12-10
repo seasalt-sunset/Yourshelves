@@ -1,9 +1,32 @@
 .divAllGames {
-    display: flex;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr ;
     grid-template-rows: 1fr 1fr 1fr;
 }
 
 .singleGame {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    column-gap: 3px;
+}
+
+.singleGameImage {
+    display: block;
+}
+
+.singleGame img {
+    width: 160px;
+    height: 100px;
+    object-fit: cover;
+
+}
+
+.singleGameName {
+    font-family: 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+    color: black;
+    font-size: 16px;
+    margin-top: 0px;
 }

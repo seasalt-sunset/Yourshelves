@@ -10,4 +10,13 @@ router.get("/", async (req, res) => {
 
 })
 
+router.get("/:name", async (req, res) => {
+    const {name} = req.params;
+    let games = await videogames.findAll();
+    let filteredGames= games.filter((game) => {
+        return game.name.toLowerCase().includes(name.toLowerCase())
+    })
+    return res.json(filteredGames)
+
+})
 module.exports = router;

@@ -4,7 +4,7 @@ import Scaff from '../assets/images/scaffale.svg'
 import MenuIcon from '../assets/images/menu_icon.svg'
 import Logo from '../assets/images/y.svg'
 import AddVideogames from './components/AddVideogames'
-
+import Giochi_InCorso from './components/Giochi_InCorso'
 function Home() {
   return (
     <div className="Home">
@@ -13,7 +13,9 @@ function Home() {
       <img className='logo' src= {Logo}/>
       <p> </p>
       </div>
-      <div><AddVideogames /> </div>
+      <div><Giochi_InCorso/></div>
+      {/* <div><AddVideogames /> </div> */}
+
       {/* <div className='divScaffale'>
       <img className='scaffale' src= {Scaff} />
       <img className='scaffale' src= {Scaff} />

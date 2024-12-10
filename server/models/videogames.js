@@ -27,6 +27,11 @@ module.exports = (sequelize, DataTypes) => {
         }
     })
     
+    videogames.associate = (models) => {
+        videogames.hasMany(models.giochi_inCorso, {foreignKey: "gameId"});
+        models.giochi_inCorso.belongsTo(videogames, {foreignKey: "gameId"});
+    }
+
     return videogames;  
     }
 
