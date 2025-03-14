@@ -73,7 +73,7 @@ bcrypt.compare(password, user.password).then((match) => {
         {
             email: user.email,
             username: user.username,
-            id:user.id,
+            id: user.id,
             status: true,
         }
     , process.env.AUTH_SECRET)
@@ -81,6 +81,7 @@ bcrypt.compare(password, user.password).then((match) => {
         authToken: authToken,
         email: user.email,
         username:user.username,
+        id: user.id,
         status:true
     });
 })

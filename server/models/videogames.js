@@ -24,12 +24,18 @@ module.exports = (sequelize, DataTypes) => {
             type: DataTypes.STRING,
             allowNull: true,
             unique: false
-        }
+        },
+        id: {
+            type: DataTypes.INTEGER,
+            autoIncrement: true,
+            allowNull: false,
+            primaryKey: true,
+            unique: true
+        },
     })
     
     videogames.associate = (models) => {
-        videogames.hasMany(models.giochi_inCorso, {foreignKey: "gameId"});
-        models.giochi_inCorso.belongsTo(videogames, {foreignKey: "gameId"});
+        videogames.hasMany(models.giochi_inCorso, { foreignKey: "gameId" });
     }
 
     return videogames;  

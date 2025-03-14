@@ -22,10 +22,11 @@ module.exports = (sequelize, DataTypes) => {
             primaryKey: true,
             unique: true
         },
-    })
+    });
+    
     users.associate = (models) => {
-        users.hasMany(models.giochi_inCorso, {foreignKey: "userId"});
-        models.giochi_inCorso.belongsTo(users, {foreignKey: "id"});
-    }
+        users.hasMany(models.giochi_inCorso, { foreignKey: "userId" });
+    };
+    
     return users;  
-    }
+}

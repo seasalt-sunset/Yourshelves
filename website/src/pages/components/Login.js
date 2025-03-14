@@ -41,6 +41,7 @@ function Login(props) {
             email: res?.data?.email,
             username: res?.data?.username,
             status: res?.data?.status,
+            id: res?.data?.id
           });
         
         
@@ -62,9 +63,9 @@ function Login(props) {
                 <input className='signUpInput' type="text"placeholder='password'/> 
             
                 <div className="signUpBottoni">
-                <button type="login" className="signUpBottone" onClick={() => props.changeToSignUp()}>SignUp </button>
                 <button type="submit" className="signUpBottone"> Login </button>
-                 <button className="signUpBottone"> Cancel </button>
+                <button type="login" className="signUpBottone" onClick={() => props.changeToSignUp()}>SignUp </button>
+                <button className="signUpBottone"> Cancel </button>
                 </div>
             </form>
         </div>
