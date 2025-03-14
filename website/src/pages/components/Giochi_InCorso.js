@@ -5,6 +5,21 @@ import { useEffect, useState } from 'react'
 function Giochi_InCorso() {
 
   const [giochiinCorso, setGiochiinCorso] = useState([]);
+  const onRemove = async (id) => {
+    await axios.delete(process.env.REACT_APP_SERVER_URL + "/giochi_inCorso/" + id
+    , {
+      headers: {
+      authToken: localStorage.getItem("AuthToken")
+    }
+  })
+
+  setGiochiinCorso(giochiinCorso.filter((gioco) => {
+return gioco.id != id
+  }))
+
+
+  }
+  
   useEffect(() => {
     fetchData()
   }, [])
@@ -31,6 +46,7 @@ function Giochi_InCorso() {
           <img src={row.videogame.background_image} />
         </div>
         <p className='singleGameName'>{row.videogame.name}</p>
+        <button onClick={() => onRemove(row.id)}>-</button>
         </div>
       )})}
     </>

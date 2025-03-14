@@ -44,22 +44,23 @@ function AddVideogames() {
             <img src={row.background_image} />
           </div>
           <p className='singleGameName'>{row.name}</p>
-          <button onClick={
-            async() => {
+          <button onClick=
+          {
+            async() => 
+            {
               let response = await axios.post(process.env.REACT_APP_SERVER_URL + "/giochi_inCorso",
               {
                 userId: auth.id,
                 gameId: row.id
               },
               {
-                headers: {
+                headers:
+                {
                   authToken: localStorage.getItem("AuthToken")
                 }
               })
-
-
-            console.log(response.data);
-          }}>+</button>
+            }
+          }>+</button>
           </div>
         )
       })}

@@ -14,11 +14,18 @@ module.exports = (sequelize, DataTypes) => {
             type: DataTypes.STRING,
             allowNull: false,
             unique: false
-        }
+        },
+        id: {
+            type: DataTypes.INTEGER,
+            autoIncrement: true,
+            allowNull: false,
+            primaryKey: true,
+            unique: true
+        },
     })
     users.associate = (models) => {
         users.hasMany(models.giochi_inCorso, {foreignKey: "userId"});
-        models.giochi_inCorso.belongsTo(users, {foreignKey: "userId"});
+        models.giochi_inCorso.belongsTo(users, {foreignKey: "id"});
     }
     return users;  
     }

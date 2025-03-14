@@ -1,4 +1,4 @@
-const usernameRegex = /^[A-Za-z\d]{5,10}$/;
+const usernameRegex = /^[A-Za-z\d]{3,30}$/;
 const emailRegex = /^\w+([-+.']\w+)*@\w+([-.]\w+)*\.\w+([-.]\w+)*$/;
 const passwordRegex = /^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[@$!%*?&])[A-Za-z\d@$!%*?&]{8,30}$/
 

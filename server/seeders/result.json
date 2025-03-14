@@ -138,5 +138,145 @@
         "released": "2007-10-10",
         "tba": false,
         "background_image": "https://media.rawg.io/media/games/46d/46d98e6910fbc0706e2948a7cc9b10c5.jpg"
+    },
+    {
+        "name": "DOOM (2016)",
+        "slug": "doom",
+        "released": "2016-05-13",
+        "tba": false,
+        "background_image": "https://media.rawg.io/media/games/587/587588c64afbff80e6f444eb2e46f9da.jpg"
+    },
+    {
+        "name": "Cyberpunk 2077",
+        "slug": "cyberpunk-2077",
+        "released": "2020-12-10",
+        "tba": false,
+        "background_image": "https://media.rawg.io/media/games/26d/26d4437715bee60138dab4a7c8c59c92.jpg"
+    },
+    {
+        "name": "Terraria",
+        "slug": "terraria",
+        "released": "2011-05-16",
+        "tba": false,
+        "background_image": "https://media.rawg.io/media/games/f46/f466571d536f2e3ea9e815ad17177501.jpg"
+    },
+    {
+        "name": "Dota 2",
+        "slug": "dota-2",
+        "released": "2013-07-09",
+        "tba": false,
+        "background_image": "https://media.rawg.io/media/games/6fc/6fcf4cd3b17c288821388e6085bb0fc9.jpg"
+    },
+    {
+        "name": "Warframe",
+        "slug": "warframe",
+        "released": "2013-03-25",
+        "tba": false,
+        "background_image": "https://media.rawg.io/media/games/f87/f87457e8347484033cb34cde6101d08d.jpg"
+    },
+    {
+        "name": "Grand Theft Auto IV",
+        "slug": "grand-theft-auto-iv",
+        "released": "2008-04-29",
+        "tba": false,
+        "background_image": "https://media.rawg.io/media/games/4a0/4a0a1316102366260e6f38fd2a9cfdce.jpg"
+    },
+    {
+        "name": "Horizon Zero Dawn",
+        "slug": "horizon-zero-dawn",
+        "released": "2017-02-28",
+        "tba": false,
+        "background_image": "https://media.rawg.io/media/games/b7d/b7d3f1715fa8381a4e780173a197a615.jpg"
+    },
+    {
+        "name": "Rocket League",
+        "slug": "rocket-league",
+        "released": "2015-07-07",
+        "tba": false,
+        "background_image": "https://media.rawg.io/media/games/8cc/8cce7c0e99dcc43d66c8efd42f9d03e3.jpg"
+    },
+    {
+        "name": "Metro 2033",
+        "slug": "metro-2033",
+        "released": "2010-03-16",
+        "tba": false,
+        "background_image": "https://media.rawg.io/media/games/120/1201a40e4364557b124392ee50317b99.jpg"
+    },
+    {
+        "name": "Rise of the Tomb Raider",
+        "slug": "rise-of-the-tomb-raider",
+        "released": "2015-11-10",
+        "tba": false,
+        "background_image": "https://media.rawg.io/media/games/b45/b45575f34285f2c4479c9a5f719d972e.jpg"
+    },
+    {
+        "name": "Metal Gear Solid V: The Phantom Pain",
+        "slug": "metal-gear-solid-v-the-phantom-pain",
+        "released": "2015-09-01",
+        "tba": false,
+        "background_image": "https://media.rawg.io/media/games/490/49016e06ae2103881ff6373248843069.jpg"
+    },
+    {
+        "name": "Batman: Arkham Knight",
+        "slug": "batman-arkham-knight",
+        "released": "2015-06-23",
+        "tba": false,
+        "background_image": "https://media.rawg.io/media/games/310/3106b0e012271c5ffb16497b070be739.jpg"
+    },
+    {
+        "name": "Half-Life 2: Lost Coast",
+        "slug": "half-life-2-lost-coast",
+        "released": "2005-10-27",
+        "tba": false,
+        "background_image": "https://media.rawg.io/media/games/b7b/b7b8381707152afc7d91f5d95de70e39.jpg"
+    },
+    {
+        "name": "The Witcher 2: Assassins of Kings Enhanced Edition",
+        "slug": "the-witcher-2-assassins-of-kings-enhanced-edition",
+        "released": "2012-04-16",
+        "tba": false,
+        "background_image": "https://media.rawg.io/media/games/6cd/6cd653e0aaef5ff8bbd295bf4bcb12eb.jpg"
+    },
+    {
+        "name": "Apex Legends",
+        "slug": "apex-legends",
+        "released": "2019-02-04",
+        "tba": false,
+        "background_image": "https://media.rawg.io/media/games/737/737ea5662211d2e0bbd6f5989189e4f1.jpg"
+    },
+    {
+        "name": "Grand Theft Auto: San Andreas",
+        "slug": "grand-theft-auto-san-andreas",
+        "released": "2004-10-26",
+        "tba": false,
+        "background_image": "https://media.rawg.io/media/games/960/960b601d9541cec776c5fa42a00bf6c4.jpg"
+    },
+    {
+        "name": "The Witcher: Enhanced Edition Director's Cut",
+        "slug": "the-witcher-enhanced-edition-directors-cut",
+        "released": "2008-09-16",
+        "tba": false,
+        "background_image": "https://media.rawg.io/media/games/ee3/ee3e10193aafc3230ba1cae426967d10.jpg"
+    },
+    {
+        "name": "The Walking Dead: Season 1",
+        "slug": "the-walking-dead",
+        "released": "2012-04-23",
+        "tba": false,
+        "background_image": "https://media.rawg.io/media/games/8d6/8d69eb6c32ed6acfd75f82d532144993.jpg"
+    },
+    {
+        "name": "Middle-earth: Shadow of Mordor",
+        "slug": "shadow-of-mordor",
+        "released": "2014-09-30",
+        "tba": false,
+        "background_image": "https://media.rawg.io/media/games/d1a/d1a2e99ade53494c6330a0ed945fe823.jpg"
+    },
+    {
+        "name": "Half-Life 2: Episode One",
+        "slug": "half-life-2-episode-one",
+        "released": "2006-06-01",
+        "tba": false,
+        "background_image": "https://media.rawg.io/media/games/7a2/7a2500ee8b2c0e1ff268bb4479463dea.jpg"
     }
 ]

@@ -1,6 +1,7 @@
 .Home {
     background-image: url('../assets/images/WoodBackground.jfif');
-    height: 100vh;
+    height: fit-content;
+    min-height: 100vh;
     width: 100vw;
 }
 
@@ -8,9 +9,10 @@
     display: flex;
     align-items: center;
     background-color: black;
+    justify-content: space-between;
     width: 100vw;
     height: 7vh;
-    opacity: 50%;
+    opacity: 55%;
     gap: 10px;
 }
 
@@ -19,6 +21,7 @@
     justify-content: center;
     height: 4vh;
     padding: 0px;
+    margin-left: 1vh;
 
 }
 
@@ -39,5 +42,99 @@
     display: flex;
     width: 90vw;
     
+}
+.logoutButton {
+    background-color: rgba(255, 149, 0, 0.724);
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: bold;
+    transition: 0.3s;
+    margin-right: 1vh;
+}
+
+.logoutButton:hover {
+    background-color: rgba(255, 196, 0, 0.466);
+}
+
+.homeButton {
+    background-color: #8B4513;
+    color: white;
+    border: none;
+    padding: 12px 24px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: bold;
+    transition: 0.3s;
+    box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.2);
+}
+
+.sidebar {
+    position: fixed;
+    top: 0;
+    left: -250px;
+    width: 250px;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.8);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    transition: left 0.3s ease-in-out;
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.5);
+}
+
+.sidebar.open {
+    left: 0;
+}
+
+.sidebar button {
+    background-color: rgba(255, 149, 0, 0.324);
+    color: white;
+    border: none;
+    padding: 12px 24px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: bold;
+    margin: 10px;
+    transition: 0.3s;
+    box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.2);
+    width: 80%;
+}
+
+.sidebar button:hover {
+    background-color: #A0522D;
+    transform: scale(1.05);
+}
+
+.overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    z-index: 10;
+}
+
+
+.sidebar {
+    position: fixed;
+    top: 0;
+    left: -250px;
+    width: 250px;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.8);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    transition: left 0.3s ease-in-out;
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.5);
+    z-index: 20;
 }
 

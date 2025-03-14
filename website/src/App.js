@@ -13,7 +13,8 @@ import Entry from './pages/Entry';
 import Home from './pages/Home.js';
 import axios from 'axios';
 import { PrivateRoute } from './services/PrivateRoute.js';
-
+import Giochi_InCorso from "./pages/components/Giochi_InCorso.js";
+import AddVideogames from "./pages/components/AddVideogames.js";
 function App() {
 
   const [auth, setAuth] = useState(false);
@@ -56,6 +57,12 @@ function App() {
           <Route path="/entry" element= {<Entry />}/>
           <Route path="/home" element={<PrivateRoute />} >
             <Route path="/home" element={<Home />} />
+          </Route>
+          <Route path="/giochi_inCorso" element={<PrivateRoute />} >
+            <Route path="/giochi_inCorso" element={<Giochi_InCorso />} />
+          </Route>
+          <Route path="/addVideogames" element={<PrivateRoute />} >
+            <Route path="/addVideogames" element={<AddVideogames />} />
           </Route>
           <Route path="*" element={<Navigate to={auth ? "/home" : "/entry"} />} />
         </Routes>
