@@ -22,8 +22,7 @@
 }
 
 
-@media only screen and
-    (orientation: landscape) {
+
         #signUpPage{
             background-image: url('../assets/background-desktop.jfif');
             height: 100vh;
@@ -39,27 +38,33 @@
         .homeTitle {
             position: absolute;
             top: 0;
-            margin: 0 auto;
-            text-align: center;
-            font-family:'Kelly Slab', 'Arial Narrow', Arial, sans-serif;
-            font-size: 80px;
-            color: #FFE6C1;
-            text-shadow: 3px 3px black,
-            -3px -3px black,
-            3px -3px black,
-            -3px 3px black;
+            margin-top: 8vh;
+            width: auto;
+            height: 14vh;
              
         }
 
         .signUpTitle {
             text-align: center;
-            font-family:'Kelly Slab', 'Arial Narrow', Arial, sans-serif;
-            font-size: 80px;
-            color: #FFE6C1;
-            -webkit-text-stroke: 0.1px black;
+            font-family:'Courier New', Courier, monospace;
+            font-size: 50px;
+            color:  #fad9c6;
             margin: 0; 
 
         }
+
+
+    .signUpInput {
+        background-color: beige;
+        justify-content: center;
+        height: 3.5vh;
+        font-size: 20px;
+        border: 2px black solid;
+        border-radius: 8px;
+        margin-top: 4vh;
+        margin-left: 10%;
+        margin-right: 10%;
+        text-align: center;
     }
 
     .signUpBottoni {
@@ -70,4 +75,17 @@
         padding-left: 15vw;
         padding-right: 15vw;
         padding-bottom: 1vh;
+        
+    }
+
+    .signUpBottone {
+        background-color: beige;
+        width: 10vh;
+        height: 5vh;
+        align-items: center;
+        border: 2px black solid;
+        border-radius: 8px;
+        margin-top: 4vh;
+        margin-right: 25%;
+        margin-left: 25%;
     }

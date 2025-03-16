@@ -1,0 +1,89 @@
+.addVideogames {
+    background-image: url('../assets/images/WoodBackground.jfif');
+    height: 240vh;
+    min-height: 100vh;
+    width: 100vw;
+}
+
+.inputGame {
+    background-color: beige;
+    width: 100vh;
+    height: 3.5vh;
+    font-size: 25px;
+    border: 2px black solid;
+    border-radius: 8px;
+    margin-top: 4vh;
+    margin-left: 25%;
+    text-align: center;
+}
+#addDivScaffali {
+display: flex;
+position: relative;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+margin-top: 13vh;
+gap: 10vh;
+}
+
+.scaffaleAdded {
+display: flex;
+width: 90vw;
+margin-top: 6vh;
+
+}
+
+.divAllGames {
+display: grid;
+position: absolute;
+grid-template-columns: 1fr 1fr 1fr 1fr ;
+grid-template-rows: 1fr 1fr 1fr;
+top: -9.5vh;
+margin-left: 15vh;
+margin-right: 15vh;
+}
+
+.singleGame {
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+column-gap: 3px;
+}
+
+#singleGameImageAdded {
+    display: block;
+    border: 3px rgba(67, 39, 0, 0.724) solid;
+    border-radius: 2px;
+    margin-top: 2.5vh;
+    margin-bottom: 2vh;
+}
+
+.singleGame img {
+width: 160px;
+height: 100px;
+object-fit: cover;
+
+}
+
+#singleGameButtonRemove {
+background-color: rgba(255, 181, 79, 0.724);
+font-family: 'Arial Narrow Bold', sans-serif;
+text-align: center;
+font-weight: bold;
+color: black;
+border: 2px rgba(67, 39, 0, 0.724) solid;
+font-size: 16px;
+margin-bottom: 0.3vh;
+}
+
+#singleGameButtonRemove:hover {
+    transform:scale(1.1);
+background-color: rgb(180, 0, 0);
+transition: all 0.05s ease-in-out;
+}
+
+#singleGameButtonRemove:active {
+background-color: rgba(245, 243, 240, 0.724);
+
+}

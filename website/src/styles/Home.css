@@ -25,8 +25,16 @@
 
 }
 
+.menuIcon:hover {
+    transform:scale(1.1);
+}
+
 .logo {
     height: 6vh;
+    margin-left: 1.5vh;
+}
+.logo:hover {
+    transform:rotate(4deg);
 }
 
 .divScaffale {
@@ -46,14 +54,13 @@
 .logoutButton {
     background-color: rgba(255, 149, 0, 0.724);
     color: white;
-    border: none;
     padding: 8px 16px;
     border-radius: 5px;
     cursor: pointer;
     font-size: 18px;
     font-weight: bold;
     transition: 0.3s;
-    margin-right: 1vh;
+    margin-right: 2.5vh;
 }
 
 .logoutButton:hover {

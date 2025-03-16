@@ -1,10 +1,21 @@
 .addVideogames {
         background-image: url('../assets/images/WoodBackground.jfif');
-        height: fit-content;
+        height: 240vh;
         min-height: 100vh;
         width: 100vw;
     }
 
+.inputGame {
+    background-color: beige;
+    width: 100vh;
+    height: 3.5vh;
+    font-size: 25px;
+    border: 2px black solid;
+    border-radius: 8px;
+    margin-top: 4vh;
+    margin-left: 25%;
+    text-align: center;
+}
 #addDivScaffali {
     display: flex;
     position: relative;
@@ -15,12 +26,21 @@
     gap: 10vh;
 }
 
+.scaffaleAdd {
+    display: flex;
+    width: 90vw;
+    margin-top: 6vh;
+    
+}
+
 .divAllGames {
     display: grid;
     position: absolute;
     grid-template-columns: 1fr 1fr 1fr 1fr ;
     grid-template-rows: 1fr 1fr 1fr;
-    top: -5%;
+    top: -9.5vh;
+    margin-left: 15vh;
+    margin-right: 15vh;
 }
 
 .singleGame {
@@ -33,6 +53,9 @@
 
 .singleGameImage {
     display: block;
+    border: 3px rgba(67, 39, 0, 0.724) solid;
+    border-radius: 2px;
+    margin-bottom: 2.25vh;
 }
 
 .singleGame img {
@@ -49,6 +72,16 @@
     font-weight: bold;
     color: black;
     border: 2px rgba(67, 39, 0, 0.724) solid;
+    border-radius: 3px;
     font-size: 16px;
-    margin-top: 0px;
+    margin-bottom: 2.1vh;
 }
+
+.singleGameButton:hover {
+    transform:scale(1.1);
+    transition: all 0.05s ease-in-out;
+}
+.singleGameButton:active {
+    background-color: rgba(245, 243, 240, 0.724);
+}
+
